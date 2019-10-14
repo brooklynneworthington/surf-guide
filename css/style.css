@@ -7,10 +7,8 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 .headerbackground.jpg {
-  grid-column-start: 1fr;
-  grid-column-end: 16fr;
-  grid-row-start: 1fr;
-  grid-row-end: 3fr;
+grid-column: 1/16;
+grid-row: 1/3; 
 }
 .indexnorthern.jpg{
   grid-column-start: 11fr;
@@ -44,4 +42,5 @@ grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr
   display: grid;
   grid-row-gap: 0px;
 }
+...
 
