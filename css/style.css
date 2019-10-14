@@ -1,4 +1,12 @@
 h1 {font-family: jaf-lapture-display, serif;
 font-weight: 400;
 font-style: normal;}
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
+1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+.headerbackground.jpg {
+  grid-column-start: 1;
+  grid-column-end: 16;
+  grid-row-start: row1-start;
+  grid-row-end: 3;
+}
 
