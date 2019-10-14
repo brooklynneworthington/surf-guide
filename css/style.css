@@ -6,6 +6,7 @@ body {background-color: #eae9e5;}
 	grid-template-rows: repeat(13, 1fr);
 	grid-gap: 0px;
 }
+
 .grid div:headerbackground.jpg{
 	grid-column: 1/6;
 	grid-row: 1/2;
@@ -26,3 +27,4 @@ body {background-color: #eae9e5;}
 	grid-column: 2;
 	grid-row: 10/11;
 }
+
