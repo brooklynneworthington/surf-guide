@@ -4,34 +4,34 @@ font-style: normal;}
 grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
 .headerbackground.jpg {
-  grid-column-start: 1;
-  grid-column-end: 16;
-  grid-row-start: 1;
-  grid-row-end: 3;
+  grid-column-start: 1fr;
+  grid-column-end: 16fr;
+  grid-row-start: 1fr;
+  grid-row-end: 3fr;
 }
 .indexnorthern.jpg{
-  grid-column-start: 11;
-  grid-column-end: 13;
-  grid-row-start: 6;
-  grid-row-end: 9;
+  grid-column-start: 11fr;
+  grid-column-end: 13fr;
+  grid-row-start: 6fr;
+  grid-row-end: 9fr;
 }
 .indexcentral.jpg{
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 11;
-  grid-row-end: 14;
+  grid-column-start: 4fr;
+  grid-column-end: 6fr;
+  grid-row-start: 11fr;
+  grid-row-end: 14fr;
 }
 .indexsouthern.jpg{
-  grid-column-start: 11;
-  grid-column-end: 13;
-  grid-row-start: 16;
-  grid-row-end: 19;
+  grid-column-start: 11fr;
+  grid-column-end: 13fr;
+  grid-row-start: 16fr;
+  grid-row-end: 19fr;
 }
 .indexwave.jpg{
-  grid-column-start: 4;
-  grid-column-end: 6;
-  grid-row-start: 21;
-  grid-row-end: 24;
+  grid-column-start: 4fr;
+  grid-column-end: 6fr;
+  grid-row-start: 21fr;
+  grid-row-end: 24fr;
 }
 .grid-container {
   display: grid;
@@ -41,5 +41,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
   display: grid;
   grid-row-gap: 0px;
 }
-
+cool :)
+oops
 
