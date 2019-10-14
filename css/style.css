@@ -6,7 +6,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
 .headerbackground.jpg {
   grid-column-start: 1;
   grid-column-end: 16;
-  grid-row-start: row1-start;
+  grid-row-start: 1;
   grid-row-end: 3;
 }
 .grid-container {
@@ -17,4 +17,9 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr
   display: grid;
   grid-row-gap: 0px;
 }
-
+.indexnorthern.jpg{
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 11;
+  grid-row-end: 13;
+}
