@@ -4,8 +4,7 @@
 	grid-template-rows: repeat(13, 1fr);
 	grid-gap: 0px;
 }
-.grid div:nth-child(1){
+.grid div:headerbackground.jpg{
 	grid-column: 1/6;
 	grid-row: 1/2;
 }
-66
