@@ -2,6 +2,18 @@ body {
   background-color: #eae9e5; z-index: -3
 }
 
+@font-face {
+    font-family: 'sangbleu_kingdom_triallight';
+    src: url('sangbleukingdomtrial-light-webfont.woff2') format('woff2'),
+         url('sangbleukingdomtrial-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.h2 {
+  font-family: 'sangbleu_kingdom_triallight'
+}
+
 .grid-container {
   display: grid;
   display: inline-grid;
