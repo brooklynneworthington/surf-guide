@@ -1,5 +1,9 @@
 body {
-  background-color: #eae9e5; z-index: -3
+  background-color: #eae9e5;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 @font-face {
@@ -30,31 +34,6 @@ body {
   text-align: center;
   padding: 0;
   font-size: 15px;
-}
-.grid-container2 {
-  display: grid;
-  display: inline-grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(16,1fr)
-  grid-gap: 0px;
-  padding: 0px;
-  width: 100%;
-  }
-
-.grid-container2 > div {
-  text-align: center;
-  padding: 0;
-  font-size: 15px;
-
-.vl {
-  grid-row-start: 2;
-  grid-row-end: 12;
-  border-left: 1px solid black;
-  height: 10;
-  right: 200%; 
-  position: relative;
-  z-index: -1;
-  width: 100%;
 }
 
 .surfers-guide {
@@ -145,8 +124,6 @@ body {
   grid-column-end: 6;
   grid-row-start: 8;
   grid-row-end: 10;
-  width: 1fr;
-  height: 2fr;
   object-fit: cover;
   width: 100%;
 }
@@ -214,15 +191,73 @@ body {
   z-index: -2;
 }
 
- .html {
- width: 6fr;
- height: 14fr;
- }
-
-hr.hr1 {
-  border-top: solid black;
+div.hr1 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  text-align: center;
+  margin: auto;
+  width: 50%;
 }
 
+div.hr2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  justify-content: left;
+  margin: auto;
+  width: 50%;
+}
+
+div.hr3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+div.hr4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  margin: auto;
+  width: 50%;
+}
+
+hr {
+  border: .5px solid black;
+}
+
+.vl1 {
+  border-left: .5px solid black;
+  height: 13fr;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 13;
+  left: 50%;
+  margin-left: -2fr;
+  top: 0;
+  z-index: 2;
+}
+
+.box {
+  border: .5px #eae9e5;
+}
+
+div.box-one {
+ background: #eae9e5;
+ grid-column-start: 1;
+ grid-column-end: 6;
+ grid-row-start: 2;
+ grid-row-end: 4;
+}
 .home-nav {
   grid-column-start: 2;
   grid-column-end: 3;
@@ -262,9 +297,6 @@ hr.hr1 {
   margin: auto;
   width: 100%;
 }
-
-
-
 
 
 
