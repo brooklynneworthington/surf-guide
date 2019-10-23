@@ -1,23 +1,309 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen"/>
-</head>
-<body>
-<div class="grid-container">
-  <div class="bar-northern">
-    <h2><a href="northern.html">Northern Coast</a></h2></div>
-  <div class="bar-central">
-    <h2><a href="central.html">Central Coast</a></h2></div>  
-  <div class="bar-southern">
-    <h2><a href="southern.html">Southern Coast</a></h2></div>
-  <div class="bar-wavemap">
-    <h2><a href="wave-map.html">Wave Map</a></h2></div>
-  <div class="item6">
-    <img src="headerbackground.jpg" alt="surfer at sunset"></div>
-  <div class="item7">7</div>
-  <div class="item8">8</div>  
-</div>
-</body>
-</html>
+.grid-container {
+  display: grid;
+  display: inline-grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(16,1fr)
+  grid-gap: 0px;
+  padding: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  width: 100%;
+  margin: 0px;
+  }
 
+.grid-container > div {
+  text-align: center;
+  padding: 0;
+}
+
+.blank1 {
+  content: "";
+  background-color: #eae9e5;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  z-index: 2
+
+}
+.surfers-guide {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  z-index: 2;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.northern-coast {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  text-align: center;
+  margin: auto;
+  width: 100%
+}
+
+.central-coast {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  text-align: center;
+  margin: auto;
+  width: 100%
+}
+
+.southern-coast {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  text-align: center;
+  margin: auto;
+  width: 100%
+}
+
+.wave-map {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  text-align: center;
+  margin: auto;
+  width: 100%
+}
+
+.header-img {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  z-index: -1;
+  width: 100%;
+  margin: 0px;
+}
+
+.north-image {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  width: 1fr;
+  height: 2fr;
+  object-fit: cover;
+  width: 100%;
+}
+
+.central-image {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  width: 1fr;
+  height: 2fr;
+  object-fit: cover;
+  width: 100%;
+}
+
+.southern-image {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  object-fit: cover;
+  width: 100%;
+}
+
+.wave-image {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  object-fit: cover;
+  width: 100%;
+}
+
+
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.bar {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 13;
+  grid-row-end: 14;
+  width: 14fr;
+  height: 1fr;
+  }
+
+.black {
+  background:#0f0;
+}
+
+.break1 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  z-index: -2;
+}
+
+.break2 {
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 14;
+  grid-row-end: 15;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  z-index: -2;
+}
+
+.footer {
+  grid-column-start: 1;
+  grid-column-end: 7;
+  grid-row-start: 15;
+  grid-row-end: 15.5;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  object-fit: fill;
+  z-index: -2;
+}
+
+div.hr1 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 6;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+div.hr2 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 6;
+  grid-row-end: 8;
+  justify-content: left;
+  margin: auto;
+  width: 50%;
+}
+
+div.hr3 {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 10;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
+
+div.hr4 {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 10;
+  grid-row-end: 12;
+  margin: auto;
+  width: 50%;
+}
+
+hr {
+  border: .5px solid black;
+}
+
+.vl1 {
+  border-left: .5px solid black;
+  height: 13fr;
+  grid-column-start: 4;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 13;
+  left: 50%;
+  margin-left: -2fr;
+  top: 0;
+  z-index: 2;
+  padding-top: 0px;
+}
+
+.box {
+  border: .5px #eae9e5;
+}
+
+div.box-one {
+ background: #eae9e5;
+ grid-column-start: 1;
+ grid-column-end: 6;
+ grid-row-start: 2;
+ grid-row-end: 4;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover { 
+  color: #9d6b36;
+  text-decoration: none; }
+
+/* This is for Northern */
+
+.home-nav {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.central-coast-nav {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center; 
+  margin: auto;
+  width: 100%;
+}
+
+.southern-coast-nav {
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center; 
+  margin: auto;
+  width: 100%;
+}
+
+.wave-map-nav {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 2;
+  text-align: center; 
+  margin: auto;
+  width: 100%;
+}
