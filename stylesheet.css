@@ -15,7 +15,7 @@ body {
 }
 
 @font-face {
-    font-family: "america";
+    font-family: "hkgrotesk";
     src: url(https://brooklynneworthington.github.io/surfguide.github.io/surf-guide/css/fonts/america.woff2) format('woff2'),
          url(https://brooklynneworthington.github.io/surfguide.github.io/surf-guide/css/fonts/america.woff) format('woff');
     font-weight: normal;
@@ -25,15 +25,24 @@ body {
 
 
 h2 {
-  font-family: america, serif;
+  font-family: ogg, serif;
   font-weight: normal;
   font-style: normal;
+  font-size: 18px;
 }
 
 h1 {
-  font-family: gtamerica, serif;
+  font-family: ogg, serif;
   font-weight: normal;
   font-style: normal;
+  font-size: 34px;
+}
+
+h3 {
+  font-family: ogg, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
 }
 
 .grid-container {
@@ -49,9 +58,18 @@ h1 {
 .grid-container > div {
   text-align: center;
   padding: 0;
-  font-size: 15px;
 }
 
+.blank1 {
+  content: "";
+  background-color: #eae9e5;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  z-index: 2
+
+}
 .surfers-guide {
   grid-column-start: 1;
   grid-column-end: 7;
@@ -261,6 +279,7 @@ hr {
   margin-left: -2fr;
   top: 0;
   z-index: 2;
+  padding-top: 0px;
 }
 
 .box {
@@ -331,6 +350,9 @@ a:hover {
   width: 100%;
 }
 
+/* This is for Central */
+
+.bar-northern
 
 
 
