@@ -25,8 +25,8 @@ body {
 
 @font-face {
     font-family: "hkgrotesk";
-    src: url(https://brooklynneworthington.github.io/surfguide.github.io/surf-guide/css/fonts/america.woff2) format('woff2'),
-         url(https://brooklynneworthington.github.io/surfguide.github.io/surf-guide/css/fonts/america.woff) format('woff');
+    src: url(https://brooklynneworthington.github.io/surfguide.github.io/surf-guide/css/fonts/hk.woff2) format('woff2'),
+         url(https://brooklynneworthington.github.io/surfguide.github.io/surf-guide/css/fonts/hk.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -34,10 +34,17 @@ body {
 
 
 h2 {
-  font-family: ogg, serif;
-  font-weight: normal;
+  font-family: europa, sans-serif;
+  font-weight: 300;
   font-style: normal;
-  font-size: 18px;
+  font-size: 14px;
+}
+
+p {
+  font-family: europa, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
 }
 
 h1 {
@@ -45,13 +52,35 @@ h1 {
   font-weight: normal;
   font-style: normal;
   font-size: 34px;
+  margin: auto;
 }
+
+h4 {
+  font-family: ogg, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 34px;
+  line-height: 100%;
+  margin: auto;
+  color: #9d6b36;
+}
+
 
 h3 {
   font-family: ogg, serif;
   font-weight: normal;
   font-style: normal;
   font-size: 14px;
+  line-height: 500%;
+}
+
+h5 {
+  font-family: ogg, serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  color: #9d6b36;
+  margin: auto;
 }
 
 .grid-container-index {
@@ -131,6 +160,7 @@ h3 {
   text-align: center;
   width: 100%;
   margin: auto;
+  z-index: 1;
 }
 
 .index-northern-img {
@@ -253,6 +283,14 @@ div.hr1 {
 
 }
 
+.northern-coast-nav {
+  text-align: center;
+  grid-column-start: 6;
+  grid-column-end: 8;
+  grid-row-start: 1;
+  grid-row-end: 3
+}
+
 .central-coast-nav {
   text-align: center;
   grid-column-start: 6;
@@ -280,8 +318,8 @@ div.hr1 {
 .page-info-north {
   grid-column-start: 5;
   grid-column-end: 11;
-  grid-row-start: 7;
-  grid-row-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 10;
   text-align: center;
   z-index: 1;
 }
@@ -290,11 +328,12 @@ div.hr1 {
   grid-column-start: 6;
   grid-column-end: 10;
   grid-row-start: 3;
-  grid-row-end: 6;
+  grid-row-end: 7;
   text-align: center;
   margin: auto;
   width: 100%;  
   z-index: 1;
+  position: relative;
 }
 
 
@@ -340,7 +379,131 @@ div.hr1 {
    margin-left: 2fr;
 }
 
+.north-surf {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 14;
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
 
+.north-play {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 14;
+  grid-row-end: 18;
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
+
+.north-stay {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 18;
+  grid-row-end: 22;
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
+
+.breakbar3 {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 8;
+  grid-row-end: 8;
+  width: 100%;
+  margin: 0px;
+  z-index: -1;
+  opacity: 0.0;
+}
+
+.breakbar4 {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 22;
+  grid-row-end: 22;
+  width: 100%;
+  margin: 0px;
+  z-index: -1;
+  opacity: 0.0;
+}
+
+.solidbar2 {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 23;
+  grid-row-end: 23;
+  height: 50%;
+  margin: 0px;
+  position: relative;
+}
+
+.breakbar5 {
+  grid-column-start: 1;
+  grid-column-end: 15;
+  grid-row-start: 3;
+  grid-row-end: 22;
+  width: 100%;
+  margin: 0px;
+  z-index: -1;
+  opacity: 0.0;
+}
+
+/* Central */
+
+.c-1 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 9;
+  grid-row-end: 14;
+}
+
+.c-2 {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 14;
+  grid-row-end: 18;
+}
+
+.c-3 {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 18;
+  grid-row-end: 22;
+}
+
+.central-surf {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 9;
+  grid-row-end: 14;
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
+
+.central-play {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 14;
+  grid-row-end: 18;
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
+
+.central-stay {
+  grid-column-start: 9;
+  grid-column-end: 13;
+  grid-row-start: 18;
+  grid-row-end: 22;
+  text-align: left;
+  width: 100%;
+  margin: auto;
+}
 
 
 

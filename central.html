@@ -1,309 +1,141 @@
-.grid-container {
-  display: grid;
-  display: inline-grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(16,1fr)
-  grid-gap: 0px;
-  padding: 0px;
-  padding-top: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
-  padding-bottom: 0px;
-  width: 100%;
-  margin: 0px;
-  }
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Central Coast</title>
 
-.grid-container > div {
-  text-align: center;
-  padding: 0;
-}
+    <link rel="stylesheet" 
+    type="text/css" 
+    href="stylesheet.css" 
+    media="screen"/>
 
-.blank1 {
-  content: "";
-  background-color: #eae9e5;
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  z-index: 2
+    <link rel="stylesheet" 
+    href="https://use.typekit.net/ihg6vkk.css">
+    
+</head>
+<body>
+<div class="grid-container-index">
 
-}
-.surfers-guide {
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  z-index: 2;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-}
+    <div class="north-header">
+      <h1>Central Coast</h1>  
+   </div>
 
-.northern-coast {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  text-align: center;
-  margin: auto;
-  width: 100%
-}
+     <div class="page-info-north">
+        <p>Oregon's north coast isn't known as a surfing destination. But laid-back towns and big breaks make up for the nip in the air. It stretches from the mouth of the Columbia River south to Florence, and here lies the state's biggest and most touristy beach towns. Despite the tourists flocking in from the city, the beaches are expansive and the surf is never too crowded. While the weather may linger around sub-par, bluebird days break up the monotomy of grey skies and when the wind takes a break, glassy lines form.</p>
+   </div>
+      <div class="north-header-img">
+    <img src="images/northhead.jpg" 
+      alt="person standing in front of haystack rock in cannon beach oregon" 
+      class="responsive">
+   </div>
 
-.central-coast {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 6;
-  grid-row-end: 8;
-  text-align: center;
-  margin: auto;
-  width: 100%
-}
+    <div class="home-nav">
+        <h3><a href="index.html">
+        Home</a></h3>
+    </div>
 
-.southern-coast {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 8;
-  grid-row-end: 10;
-  text-align: center;
-  margin: auto;
-  width: 100%
-}
+    <div class="northern-coast-nav">
+        <h3><a href="northern.html">
+        Northern Coast</a></h3>
+    </div>
 
-.wave-map {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 10;
-  grid-row-end: 12;
-  text-align: center;
-  margin: auto;
-  width: 100%
-}
+    <div class="southern-coast-nav">
+        <h3><a href="southern.html">
+        Southern Coast</a></h3>
+    </div>
 
-.header-img {
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 1;
-  grid-row-end: 2;
-  z-index: -1;
-  width: 100%;
-  margin: 0px;
-}
+    <div class="wave-map-nav">
+        <h3><a href="wave-map.html">
+        Wave Map</a></h3>
+    </div>
 
-.north-image {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  width: 1fr;
-  height: 2fr;
-  object-fit: cover;
-  width: 100%;
-}
+     <div class="c-1">
+        <img src="images/c-img-1.jpg" 
+        alt="woman on beach sitting by a fire" 
+        class="responsive">
+    </div>
 
-.central-image {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 6;
-  grid-row-end: 8;
-  width: 1fr;
-  height: 2fr;
-  object-fit: cover;
-  width: 100%;
-}
+     <div class="c-2">
+        <img src="images/c-img-2.jpg" 
+        alt="two people surfing" 
+        class="responsive">
+    </div>
 
-.southern-image {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 8;
-  grid-row-end: 10;
-  object-fit: cover;
-  width: 100%;
-}
+     <div class="c-3">
+        <img src="images/c-img-3.jpg" 
+        alt="two people surfing" 
+        class="responsive">
+    </div>
 
-.wave-image {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 10;
-  grid-row-end: 12;
-  object-fit: cover;
-  width: 100%;
-}
+    <div class="central-surf">
+        <h5>Surf</h5>
 
+        <h2><a href="https://www.surf-forecast.com/breaks/Seaside-Cove/forecasts/latest/six_day">
+        Seaside Cove - Intermediate to Advanced</a></h2>
 
+        <h2><a href="https://www.surf-forecast.com/breaks/Indian-Beach/forecasts/latest/six_day">
+        Indian Beach - All Levels</a></h2>
 
-.responsive {
-    width: 100%;
-    height: auto;
-}
+        <h2><a href="https://www.surf-forecast.com/breaks/Oswald-West-State-Park/forecasts/latest/six_day">
+        Short Sands - All Levels</a></h2>
 
-.bar {
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 13;
-  grid-row-end: 14;
-  width: 14fr;
-  height: 1fr;
-  }
+        <h2><a href="https://www.surf-forecast.com/breaks/Pacific-City/forecasts/latest/six_day">
+        Pacific City - All Levels</a></h2>
 
-.black {
-  background:#0f0;
-}
+        <h2><a href="https://www.surf-forecast.com/breaks/Cape-Lookout/forecasts/latest/six_day">
+        Oceanside - All Levels</a></h2>
+    </div>
 
-.break1 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  z-index: -2;
-}
+    <div class="central-stay">
 
-.break2 {
-  grid-column-start: 1;
-  grid-column-end: 6;
-  grid-row-start: 14;
-  grid-row-end: 15;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  z-index: -2;
-}
+        <h5>Stay</h5>
 
-.footer {
-  grid-column-start: 1;
-  grid-column-end: 7;
-  grid-row-start: 15;
-  grid-row-end: 15.5;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-  object-fit: fill;
-  z-index: -2;
-}
+        <h2><a href="https://www.searanchrv.com/rvtents.htm"> Sea Ranch Resort - Cannon Beach</a></h2>
 
-div.hr1 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 4;
-  grid-row-end: 6;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-}
+        <h2><a href="https://www.meredithlodging.com/gearhart-vacation-rentals#q=sm_nid%24rc_core_term_locations%24name%3A%22Gearhart%22&sort=random_1572328800%20asc&rows=36"> Meredith Lodging - Gearhart </a></h2>
 
-div.hr2 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 6;
-  grid-row-end: 8;
-  justify-content: left;
-  margin: auto;
-  width: 50%;
-}
+        <h2><a href="https://www.gilbertinn.com/"> Gilbert Inn - Seaside</a></h2>
 
-div.hr3 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 8;
-  grid-row-end: 10;
-  text-align: center;
-  margin: auto;
-  width: 50%;
-}
+        <h2><a href="https://www.hartscamp.com"> Hart's Camp - Pacific City</a></h2>
 
-div.hr4 {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 10;
-  grid-row-end: 12;
-  margin: auto;
-  width: 50%;
-}
+        <h2><a href="http://turtlejanes.com/"> Turtle Janes - Oceanside</a></h2>
+    </div>
 
-hr {
-  border: .5px solid black;
-}
+    <div class="central-play"> 
+         
+         <h5>Play</h5>
 
-.vl1 {
-  border-left: .5px solid black;
-  height: 13fr;
-  grid-column-start: 4;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 13;
-  left: 50%;
-  margin-left: -2fr;
-  top: 0;
-  z-index: 2;
-  padding-top: 0px;
-}
+         <h2><a href="https://www.oregonhikers.org/field_guide/Neahkahnie_Mountain_from_North_Hike"> Neahkahnie Mountain Hike - Manzanita</a></h2>
 
-.box {
-  border: .5px #eae9e5;
-}
+         <h2><a href="https://oregonstateparks.org/index.cfm?do=parkPage.dsp_parkPage&parkId=129"> Fort Stevens State Park - Astoria</a></h2>
 
-div.box-one {
- background: #eae9e5;
- grid-column-start: 1;
- grid-column-end: 6;
- grid-row-start: 2;
- grid-row-end: 4;
-}
+         <h2><a href="https://www.cannonbeach.org/things-to-do/beaches-and-parks/haystack-rock/"> Haystack Rock - Cannon Beach</a></h2>
 
-a:link {
-  color: black;
-  text-decoration: none;
-}
+         <h2><a href="http://www.seasideaquarium.com/"> Seaside Aquarium - Seaside</a></h2>
 
-a:visited {
-  color: black;
-  text-decoration: none;
-}
+         <h2><a href="https://www.tillamook.com/creamery.html#general"> Tillamook Creamery - Tillamook</a></h2>
+     </div>
 
-a:hover { 
-  color: #9d6b36;
-  text-decoration: none; }
+    <div class="breakbar3">
+        <img src="images/breakbar3.jpg"
+        alt="break"
+        class="responsive">
+    </div>
 
-/* This is for Northern */
+    <div class="breakbar4">
+        <img src="images/breakbar4.jpg"
+        alt="break"
+        class="responsive">
+    </div>
 
-.home-nav {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  text-align: center;
-  margin: auto;
-  width: 100%;
-}
+    <div class="solidbar2">
+        <img src="images/solidbar2.jpg"
+        alt="break"
+        class="responsive">
+    </div>
 
-.central-coast-nav {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  text-align: center; 
-  margin: auto;
-  width: 100%;
-}
+    <div class="vlnorth"></div>
 
-.southern-coast-nav {
-  grid-column-start: 4;
-  grid-column-end: 5;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  text-align: center; 
-  margin: auto;
-  width: 100%;
-}
+</div>
 
-.wave-map-nav {
-  grid-column-start: 5;
-  grid-column-end: 6;
-  grid-row-start: 2;
-  grid-row-end: 2;
-  text-align: center; 
-  margin: auto;
-  width: 100%;
-}
+</body>
+</html>
