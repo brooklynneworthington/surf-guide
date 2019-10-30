@@ -48,16 +48,15 @@ p {
 }
 
 h1 {
-  font-family: ogg, serif;
-  font-weight: normal;
+  font-family: europa, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 34px;
-  margin: auto;
 }
 
 h4 {
-  font-family: ogg, serif;
-  font-weight: normal;
+  font-family: europa, sans-serif;
+  font-weight: 700;
   font-style: normal;
   font-size: 34px;
   line-height: 100%;
@@ -67,16 +66,16 @@ h4 {
 
 
 h3 {
-  font-family: ogg, serif;
-  font-weight: normal;
+  font-family: europa, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 14px;
   line-height: 500%;
 }
 
 h5 {
-  font-family: ogg, serif;
-  font-weight: normal;
+  font-family: europa, sans-serif;
+  font-weight: 300;
   font-style: normal;
   font-size: 25px;
   color: #9d6b36;
