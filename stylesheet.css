@@ -48,15 +48,16 @@ p {
 }
 
 h1 {
-  font-family: europa, sans-serif;
-  font-weight: 700;
+  
+  font-family: vinyl, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 34px;
 }
 
 h4 {
-  font-family: europa, sans-serif;
-  font-weight: 700;
+  font-family: vinyl, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 34px;
   line-height: 100%;
@@ -66,16 +67,16 @@ h4 {
 
 
 h3 {
-  font-family: europa, sans-serif;
-  font-weight: 300;
+  font-family: vinyl, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 500%;
 }
 
 h5 {
-  font-family: europa, sans-serif;
-  font-weight: 300;
+  font-family: vinyl, sans-serif;
+  font-weight: 400;
   font-style: normal;
   font-size: 25px;
   color: #9d6b36;
@@ -83,10 +84,10 @@ h5 {
 }
 
 h6 {
-  font-family: europa, sans-serif;
-  font-weight: 300;
+  font-family: vinyl, sans-serif;
+  font-weight: 400;
   font-style: normal;
-  font-size: 18px;
+  font-size: 22px;
 }
 
 .grid-container-index {
@@ -348,7 +349,6 @@ div.hr1 {
   object-fit: cover;
   width: 4fr;
   height: 6fr;
-  opacity: 80%;
 }
 
 .northern-1 {
